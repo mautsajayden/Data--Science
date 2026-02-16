@@ -1,0 +1,16 @@
+#Your code goes here
+month_list = ['January','May','July']
+month_list.append('December')
+month_list.insert(0,'February')
+
+x = 0
+
+for i in range(len(month_list)):
+    
+    if 'July' in month_list[i] :
+        x = i 
+        break
+    
+del month_list[x]
+
+print(month_list)
